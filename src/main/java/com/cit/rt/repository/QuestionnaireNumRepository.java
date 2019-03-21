@@ -1,4 +1,7 @@
 package com.cit.rt.repository;
 
-public interface QuestionnaireNumRepository {
+import com.cit.rt.entity.QuestionnaireNum;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface QuestionnaireNumRepository extends JpaRepository<QuestionnaireNum, Integer> {
 }

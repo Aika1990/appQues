@@ -1,4 +1,7 @@
 package com.cit.rt.repository;
 
-public interface AppSettingsRepository {
+import com.cit.rt.entity.AppSettings;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AppSettingsRepository extends JpaRepository<AppSettings, Integer> {
 }

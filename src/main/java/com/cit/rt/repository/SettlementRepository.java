@@ -1,4 +1,7 @@
 package com.cit.rt.repository;
 
-public interface SettlementRepository {
+import com.cit.rt.entity.Settlement;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SettlementRepository extends JpaRepository<Settlement, Integer> {
 }
